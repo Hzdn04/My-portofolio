@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css bootstrap -->
+    <!-- <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css"> -->
+    <!-- css main -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- Icon -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>My Portoflio</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Hafizzudin</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#" class="nav__link active">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+    </main>
+
+    <!-- Home -->
+    <section class="home bd-grid" id="home">
+        <div class="home__data">
+            <h1 class="home__title">Hi, <br>I'am <span class="home__title-color">Hafizzudin</span><br> Web Designer</h1>
+            <a href="#contact" class="button">Contact</a>
+        </div>
+
+        <div class="home__social">
+            <a href="#" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="#" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            <a href="#" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+        </div>
+        <div class="home__img">
+            <img src="images/icon porto.png" alt="">
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+        <h2 class="section-title">
+            About
+        </h2>
+        <div class="about__container bd-grid">
+            <div class="about__img">
+                <img src="images/foto_mhs.jpg" alt="">
+            </div>
+            <div>
+                <h2 class="about__subtitle">I'am Hafizzudin</h2>
+                <p class="about__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus, officia deleniti qui nesciunt commodi animi perferendis nisi. Numquam iusto aliquid nam dicta perferendis nisi nostrum vitae delectus, repellendus corrupti ex.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MySkill -->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills__container bd-grid">
+            <div>
+                <h2 class="skills__subtitle">Profesional Skill</h2>
+                <p class="skills__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Eum veniam non asperiores deleniti 
+                </p>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-html5 skills__icon'></i>
+                        <span class="skills__name">HTML & CSS</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-figma skills__icon' ></i>
+                        <span class="skills__name">Figma Design</span>
+                    </div>
+                </div>
+                <div class="skills__data">
+                    <div class="skills__names">
+                        <i class='bx bxl-javascript skills__icon' ></i>
+                        <span class="skills__name">javascript</span>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="images/skills.jpg" alt="" class="skills__img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__container bd-grid">
+            <form action="#" class="contact__form" method="post">
+                <input type="text" placeholder="Name" class="contact__input">
+                <input type="mail" placeholder="Email" class="contact__input">
+                <textarea name="" id="" cols="30" rows="10" class="contact__input"></textarea>
+                <input type="button" value="Kirim" class="contact__button button">
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer__title">
+            Hafizzudin
+        </p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook-square' ></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p>&#169; 2021 Copyright all right reserved</p>
+    </footer>
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- javascript -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
